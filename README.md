@@ -1,5 +1,7 @@
 # Deep Learning Systems in Engineering
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 This repository contains implementations for the Deep Learning Systems in Engineering course offered in Summer 2021.
 
 - Linear Regression [`Assgn_1`]
