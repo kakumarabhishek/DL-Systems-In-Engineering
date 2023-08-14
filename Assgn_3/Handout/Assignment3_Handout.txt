@@ -1,0 +1,23 @@
+In this assignment, we will explore multi-class classification using softmax regression, an extension of logistic regression to handle multiple classes.
+
+1) Write the equations corresponding to the multi-class softmax regression approach in the language/notation of neural networks we have been developing in the class. In particular,  derive the equation for the gradients of the loss function with respect to the parameters and the gradient update using a mini-batch. Write the vectorized versions of these equations where possible.
+
+2) Choose any four digits from the MNIST database - and extract the images corresponding to these four digits.
+
+2.1: Develop a four-class classifier using these four selected digits of your choice. Demonstrate your choice of cross-validation strategy to select the best hyperparameters, and how you assessed the performance of this classifier.
+
+2.2: In particular, plot the weights corresponding to each of the four classes as a movie as a function of iteration time, and also show the final estimated weights as an image.
+
+2.3: Comment on the features (pixels) each of these weights is tending to attend to in its calculation of the neuron's output.
+
+2.4: Report the accuracy of classification on a test dataset.
+
+ 
+
+Notes/Deliverables:
+
+* This assignment must be done individually -- you are welcome to refer to any material online and discuss with your colleagues in the course, but all the code that you submit must have been typed by you. If you copy/paste, then it doesn't lead to the same depth of insight and intuition that you would gain if you were to develop the code yourself. Mistakes are expected, and they are an integral part of learning, as the process of making and fixing mistakes is what is key to internalize this material and become good at quickly implementing these methods.
+* If any two assignments are found to be similar/overlapping in their presentation indicating evidence of sharing of code, both assignments will get -100 points (that is, the assignment will be marked 0 and will also penalize another assignment for both individuals). 
+* Please comment your code liberally and follow good coding/variable naming practices and make it easy for the TA to read/run/grade your code. 25% of the assignment grade will be for following best practices of coding and presentation, where poorly document or structured code, or a code that runs but generates errors, will be penalized.
+* Submit your code as a Jupyter notebook along with all the necessary input files so that the TA can load the code in their python environment and run it easily.
+* Submit a word/powerpoint/latex report explaining the task and the solution and highlighting the key take away points of the exploration

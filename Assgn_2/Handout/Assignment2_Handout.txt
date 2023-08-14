@@ -1,0 +1,25 @@
+1) You have been asked by your AI-startup to develop a classifier for pair-wise classification of input images of numbers (digits). The input to the program is two integers, between 0 and 9, and your task is to deliver a logistic-regression classifier for this pair of numbers given as input and report its classification accuracy.
+
+1.a:  Using the digits database containing 1797 images, each of size 8x8 pixels (see link below), flatten each image into a vector of 64 pixels, and use these as training database to develop an algorithm that uses  stochastic gradient descent with some mini-batch size and code-up the gradient descent yourself including regularization of the parameters to control complexity. 
+
+1.b: Identify all the hyperparameters, and detail a strategy to learn the best values for these. Plot the weights and bias of the logistic neuron over the course of training (a representative sample). Present the necessary plots to convince your team manager that the training was successful. Note: As discussed in lecture, the weights are the same dimension as the input image, so can plot the scalar magnitude of the weights versus iteration time, or reshape the weights into an image (of same dimension as input=8x8 here) and plot these images over time as frames of a movie. Plot both of these to gain intuition on the overall size of the weight vector, and which features of the input get associated to non-zero weights.
+
+1.c: Report the accuracy/sensitivity(recall)/specificity/precision/F-score  on a test dataset.
+
+1.d: Discuss the tradeoff between bias and variance as it pertains to this problem, and identify when you know which is occurring.
+
+2) Code up logistic regression using MNIST database again for a pair of input digits, including regularization of model weights using any/all library functions, and report the best performance for three choices of regularization (no regularization, medium amount of regularization and high regularization). Discuss the bias/variance tradeoff.
+
+Logistic regression is described in many articles online, such as this one:
+
+https://towardsdatascience.com/logistic-regression-using-python-sklearn-numpy-mnist-handwriting-recognition-matplotlib-a6b31e2b166a
+
+Links to an external site. 
+
+Notes/Deliverables:
+
+* This assignment must be done individually -- you are welcome to refer to any material online and discuss with your colleagues in the course, but all the code that you submit must have been typed by you. If you copy/paste, then it doesn't lead to the same depth of insight and intuition that you would gain if you were to develop the code yourself. Mistakes are expected, and they are an integral part of learning, as the process of making and fixing mistakes is what is key to internalize this material and become good at quickly implementing these methods.
+* If any two assignments are found to be similar/overlapping in their presentation indicating evidence of sharing of code, both assignments will get -100 points (that is, the assignment will be marked 0 and will also penalize another assignment for both individuals). 
+* Please comment your code liberally and follow good coding/variable naming practices and make it easy for the TA to read/run/grade your code. 25% of the assignment grade will be for following best practices of coding and presentation, where poorly document or structured code, or a code that runs but generates errors, will be penalized.
+* Submit your code as a Jupyter notebook along with all the necessary input files so that the TA can load the code in their python environment and run it easily.
+* Submit a word/powerpoint/latex report explaining the task and the solution and highlighting the key take away points of the exploration

@@ -1,0 +1,29 @@
+You have just teamed up with your friend to start a startup interested in developing a gender prediction algorithm from human faces. The application will be used to classify faces from a video feed when people are in a mall and are looking at one of the many digital billboards inside, and the company wants to extract gender analytics that can be used to target particular advertisements for males differently than females. (This is an actual product I had read about several years ago that was made by a Toronto Startup, and in a short time, this company was acquired by a larger company at a pretty good valuation!)
+
+Being a startup, you are a small, resource constrained team, without large fancy GPUs, and you need to develop a prototype product fast, and figure out whether this is doable, or fail early and look for some other product to target.
+
+So you search the internet to find publicly available databases of faces that have been tagged by gender and come across these databases:
+
+https://susanqq.github.io/UTKFace/
+
+Links to an external site. 
+
+Use the Aligned&Cropped Faces
+
+Links to an external site..zip database, which is a large collection of male/female face images of size 200x200. Restrict the age range to 13+ as these are potential customers with money to spend. 
+
+https://arxiv.org/pdf/1908.04913.pdf
+
+Links to an external site.
+
+Adience benchmark gender and age classification:
+
+https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification
+
+Links to an external site. 
+
+https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification/code
+
+Links to an external site. 
+
+Use these database judiciously, you can choose to develop your model on one database and test on another, or use two or three together for training and set aside some data for validation and testing (restrict to the same age group in all three). Your goal is to quickly generate some initial feasibility results of the "product" you are seeking to develop for the company.
